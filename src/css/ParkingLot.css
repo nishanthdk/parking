@@ -1,0 +1,82 @@
+.parking-management {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  }
+  
+  .empty-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  }
+  
+  .parkin-num {
+  font-size: 1.2rem;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .enter-vehicle-details {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  }
+  
+  .enter-vehicle-details:hover {
+  background-color: #006B8F;
+  }
+  .registration-timings{
+ font-size: 10px;
+  }
+  .registration-input, .timings-input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .registration-input:focus, .timings-input:focus {
+  box-shadow: 0 0 5px #008CBA;
+  }
+  
+  .form-submit {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+  }
+  
+  .form-submit:hover {
+  background-color: #3E8E41;
+  }
+  
+  
+

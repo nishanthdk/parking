@@ -1,0 +1,51 @@
+.parking-payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #8e2de2 0%, #4a00e0 100%);
+}
+
+
+.parking-payment-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.registration {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.timngs {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.calculatedCharge {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.takePAyment {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dealloctae-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
